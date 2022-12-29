@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace sg_textile_web_api.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
